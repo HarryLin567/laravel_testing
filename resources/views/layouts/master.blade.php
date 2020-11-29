@@ -14,6 +14,9 @@
             <h3 class="card-title">@yield("title")</h3>  
         </div>
     </div>
+    <div class="row">
+        @yield("content")
+    </div>
 </div>
 
 

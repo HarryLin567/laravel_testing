@@ -1,0 +1,1 @@
+<img src="https://i.ytimg.com/vi/ngX6kbRSmOY/maxresdefault.jpg" class="img-fluid" alt="Responsive image">
