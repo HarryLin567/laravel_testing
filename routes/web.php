@@ -1,5 +1,14 @@
 <?php
 use Illuminate\Support\Facades\Route;
+use App\Category;
+
+
+
+Route::get('/', function(){
+  $categories = category::all();
+  return  view ('welcome', ['categories' => $categories]);
+
+});
 
 /*
 |--------------------------------------------------------------------------
@@ -39,22 +48,7 @@ use Illuminate\Support\Facades\Route;
 
 // });
 
-
-Route::prefix('UI')->group(function(){
-
-  Route::get ('/', function(){
-    return view("home");
-  });
-
-  Route::get('/contact-us', function(){
-    return view("contact-us");
-  });
-
-
-
-});
-
-
+  
 
 
 
